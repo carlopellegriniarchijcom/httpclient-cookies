@@ -5,7 +5,7 @@ import org.apache.commons.httpclient.methods.GetMethod;
 
 public class ClientCoookies {
 
-	public static void run() {
+	public void run() {
 		try {
 			HttpClient httpclient = new HttpClient();
 			httpclient.getParams().setParameter("http.useragent", "My Browser");
